@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Progress</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="font awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="border-right" id="sidebar-wrapper" style="background-color: #1b2d5d; color: white;">
+      <div class="sidebar-heading">Student Portal</div>
+      <div class="list-group list-group-flush">
+        <a href="index.html" class="list-group-item list-group-item-action text-white"><i class="fa fa-home" id="icons"
+            aria-hidden="true"></i>Home</a>
+        <a href="progress.html" class="list-group-item list-group-item-action text-white active"><i class="fa fa-bar-chart" id="icons"
+            aria-hidden="true"></i>Progress</a>
+        <a href="proposal.html" class="list-group-item list-group-item-action text-white"><i class="fa fa-table" id="icons"
+            aria-hidden="true"></i>Proposal</a>
+        <a href="thesis.html" class="list-group-item list-group-item-action text-white"><i class="fa fa-pencil-square-o" id="icons"
+            aria-hidden="true"></i>Thesis</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-light" id="menu-toggle"><span class="dark-blue-text"><i class="fa fa-bars"
+          aria-hidden="true"></i></span></button>
+
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row" style="padding-top: 3%;">
+          <div class="col-sm-12">
+            <div class="card text-center shadow p-3 mb-5 bg-white rounded">
+              <h5 class="card-header">Stages of Progress</h5>
+              <div class="card-body">
+                <h5 class="card-title font-weight-bold">Proposal Stage</h5>
+                <p class="card-text"> A student develops a proposal guided by their supervisor, once ready for 
+                  evaluation the student gets approval from the supervisor to upload the approved proposal on the 
+                  system. PhD students also upload a Similarity Index Report.</p>
+                  <hr>
+                <h5 class="card-title font-weight-bold">Thesis Stage</h5>
+                <p class="card-text"> After the student successfully registered for the semester, then the relationship 
+                  between the supervisor and the student is created in progress reports. Progress reports will also be 
+                  uploaded by the student at this stage regularly.</p>
+                  <hr>
+                <h5 class="card-title font-weight-bold">Examination Stage</h5>
+                <p class="card-text"> At this final stage, the student completes an intention to submit form, and 
+                  uploads it. Once the form has been accepted, the student then uploads the approved thesis abstract 
+                  for examiner appointment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
